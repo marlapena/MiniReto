@@ -1,0 +1,17 @@
+import UIKit
+
+
+for i in 0...100{
+    let Bng = i % 5
+    let Par = i % 2
+    
+    if i>29 && i<41{
+    print ("\(i) Viva Swift!")
+    } else if (Bng == 0 && i != 0) {
+        print ("\(i) BINGO")
+    } else if (Par == 0) {
+        print ("\(i) Par")
+    } else if (Par != 0) {
+        print ("\(i) Impar")
+    }
+}
